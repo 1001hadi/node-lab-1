@@ -21,7 +21,7 @@ http
       res.statusCode = 200;
       res.setHeader("Content-Type", "text/html");
       res.end(`
-            <h1 style="color:teal">Hello to my node Lab!</h1>
+            <h1 style="color:teal">Welcome to my node Lab!</h1>
             `);
     } else if (path == "/test") {
       res.statusCode = 200;
