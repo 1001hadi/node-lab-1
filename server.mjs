@@ -11,6 +11,11 @@ http
     //     res.write(`<h1 style="color:blue">Hello Lab!</h1>`);
     //     res.write("<p>I wonder what else we can send...</p>");
     //     res.end();
+
+    //////////////////////
+    ///// last part /////
+    //----------------//
+
     let path = req.url;
     if (path === "/") {
       res.statusCode = 200;
