@@ -27,7 +27,7 @@ http
       res.statusCode = 200;
       res.setHeader("Content-Type", "text/html");
       res.end(`
-            <h1 style="color:teal">Welcome to test page!</h1>
+            <h1 style="color:blue">Welcome to test page!</h1>
             `);
     } else {
       res.statusCode = 404;
